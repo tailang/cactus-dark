@@ -1,38 +1,35 @@
 nav:
   Home: /
-  About: /about/
   Writing: /archives/
-  Projects: http://github.com/probberechts
+  About: /about/
+  #Projects: http://github.com/probberechts
 
-projects_url: http://github.com/probberechts
+#projects_url: http://github.com/probberechts
 
 customize:
     gravatar:
-        email: 
+        email: caopingcpu@gmail.com
     logo:
         enabled: true
         width: 50
         height: 50
-        url: /images/logo.png
+        url: /images/avatar.png
         gravatar: false
-    favicon: 
+    favicon:
       # eg. generate with http://realfavicongenerator.net/
-      desktop:
-        url: /images/favicon.ico
-        gravatar: false
-      android:
-        url: /images/favicon-192x192.png
-        gravator: false
-      apple:
-        url: /images/apple-touch-icon.png
-        gravator: false
+      # desktop:
+      #   url: /images/favicon.ico
+      #   gravatar: false
+      # android:
+      #   url: /images/favicon-192x192.png
+      #   gravator: false
+      # apple:
+      #   url: /images/apple-touch-icon.png
+      #   gravator: false
     social_links:
-        github: http://github.com/probberechts/cactus-dark
-        twitter: /
-        facebook: /
-        linkedin: /
+        github: https://github.com/tailang
     show_all_posts: false
-    post_count: 5
+    post_count: 20
     highlight: rainbow
 
 # RSS
@@ -41,7 +38,7 @@ rss: false
 # Plugins
 plugins:
     disqus_shortname: # Disqus Comments Shortname
-    google_analytics: UA-86660611-1 # enter the tracking ID for your Google Analytics
+    #google_analytics: UA-86660611-1 # enter the tracking ID for your Google Analytics
 
 # Miscellaneous
 miscellaneous:
